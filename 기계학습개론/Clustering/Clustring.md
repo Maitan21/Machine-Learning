@@ -12,28 +12,28 @@ A task of `identifying similar instances` and `assigning them to clusters(e.g., 
 4. The end. 
 
 ### Problem 1
-- Suboptimal solutions due to unlucky centroid initalizations
+- Suboptimal solutions due to unlucky centroid initialization.
 - To find which is the best model, we need a `metric` to compare.
---> Ineria : the mean suared distance between each instace and its closest `centroid` (하나의 평가 지표)
+--> Ineria : the mean suared distance between each instance and its closest `centroid` (하나의 평가 지표)
 
 ### Problem 2
 - Complexity issue
 --> Time : K-Means needs to use the full dataset at each iteration during training.
 --> Memory to store all sets.
-: when `clusters go huge`, theses issues bcome more critical!
+: when `clusters go huge`, theses issues become more critical!
 - `Soulution` : Using `mini-batches` during training!
 
 ### The Other problems
 - Needs
-: Run the algorithm `several times` to avoid suboptimal soutions, `Specify` the number of clusters, which can be quite a hassle
+: Run the algorithm `several times` to avoid suboptimal solutions, `Specify` the number of clusters, which can be quite a hassle
 - More:
-: K-Means does ne behave very well when the clusters have `varying sizes`(다양한 사이즈) / `different densities`(다른 밀도)/ `nonspherical shapes` (구 형태x)
+: K-Means does not behave very well when the clusters have `varying sizes`(다양한 사이즈) / `different densities`(다른 밀도)/ `nonspherical shapes` (구 형태x)
 
 ## Where to use?
 1. Preprocessing (전처리)
-- As a preporcessing step before a supervised learning algorithm
+- As a preprocessing step before a supervised learning algorithm
 - Can be an efficient approach to dimensionality reduction!
-- Exapmple : MNIST - like dataset (8x8 image with 0 to 9 digits)
+- Example : MNIST - like dataset (8x8 image with 0 to 9 digits)
 
 ```{.python}
 from sklearn.datasets import load_digits
