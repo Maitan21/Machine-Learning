@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="colab_train_test">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ML/colab/run_project/colab_train_test.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
