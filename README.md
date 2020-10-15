@@ -4,6 +4,7 @@ Introduction to Machine Learning
 # Index 
 All of Summary Report in the `기계학습개론`
 - Clustering
+- GMM / Anomaly Detection
 
 ## Copyright
 Kyungpook National University.
