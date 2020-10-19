@@ -4,6 +4,7 @@ Introduction to Machine Learning
 # Index 
 All of Summary Report in the `기계학습개론`
 - What is `Machine learning` and `Deep learning`?
+- Linear Regression
 - Clustering
 - GMM / Anomaly Detection
 
