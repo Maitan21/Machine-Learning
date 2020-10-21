@@ -87,5 +87,10 @@ Sol.3 `Bagging`
 
 ### 장점
 - 데이터 특성을 자세히 알지 못해도 적용 가능하다는 장점
+- Easy to implement
+- Little data preparation (preprocessing)
+- classification 문제와 regression 문제 모두에 자유롭게 적용 가능
+- 다양한 파라미터를 사용하여 Tree 모델을 제한하거나 특정 할 수 있다.
+- 학습데이터의 확률분포 특성을 사전에 알지 못해도 모델링이 가능하다
 
  
