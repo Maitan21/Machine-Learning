@@ -6,6 +6,7 @@ All of Summary Report in the `기계학습개론`
 - What is `Machine learning` and `Deep learning`?
 - Regression
 - Ensemble
+- SVM
 - Clustering
 - GMM / Anomaly Detection
 
@@ -17,3 +18,4 @@ Department of Computer Science, IT University
 경북대학교
 ITEC417 IT대학 컴퓨터학부 데이터과학전공
 (기계학습개론)
+
