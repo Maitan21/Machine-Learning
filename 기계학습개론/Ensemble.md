@@ -11,7 +11,7 @@ wisdom of the crowd(`집단지성`)
 - Boosting
 - Stacking
 
-##Voting Classifiers
+## Voting Classifiers
 Training diverse classifiers
 
 - 여러 classifer 를 각각 훈련시킨 후, 각각의 예측값을 이용해 결론값 추론
@@ -34,7 +34,6 @@ Training diverse classifiers
 
 ### Bagging
 With several predictors on differnet random samples of the training set
-
 
 - Training set 을 랜덤으로 뽑아 예측.
 - 모델의 bias를 유지하며 variance를 줄이기 위함
