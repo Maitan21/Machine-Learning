@@ -13,6 +13,7 @@
 
 ### Gradient Descent
 - The general idea of Gradient Descent is `to tweak parameters iteratively`in order `to minimize a cost function.`
+
 ( 오차함수를 최소화하기 위하여 파라미터를 반복적으로 수정하는 것이다. )
 
 - Batch Gradient Descent
@@ -27,7 +28,7 @@
   - 풀 배치를 계산하는 것(Batch)도 아니고 하나의 샘풀에 대해서만 계산하는 것(Stochastic)은 아니고 작은 단위의 배치로 계산
   하드웨어가 받쳐주면 미니배치가 병렬작업으로 인해 더욱 빠르다.
   
-### Overfitting % Underfitting
+### Overfitting And Underfitting
 1. Overfitting(과대 적합)
 - 어려운 가짜 패턴을 포착해 정확한 예측을 할 수 없게 됨
 - 일반화가 어렵다 -> 오버피팅
