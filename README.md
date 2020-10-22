@@ -7,6 +7,7 @@ All of Summary Report in the `기계학습개론`
 - Regression
 - Ensemble
 - SVM
+- PCA
 - Clustering
 - GMM / Anomaly Detection
 
