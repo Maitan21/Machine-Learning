@@ -1,4 +1,4 @@
-#Support Vector Machine
+# Support Vector Machine
 - `Margin`을 이용한 일반화 능력 향상 기법
 <img src="https://user-images.githubusercontent.com/45276804/96756406-066ffe80-140f-11eb-9939-abffb54a55fe.png" width="100%"/>
 
