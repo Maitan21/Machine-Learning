@@ -61,8 +61,11 @@
 Sol.1 `Early stopping`
 - 트레이닝하다가 validation error 가 최소일때 딱 스탑 
 - 규제화 정규화에 특화
+
 Sol.2 `Add regularized term`
+
 Sol.3 `Bagging`
+
 - training set 을 임의로 섞은 후 subset으로 나누어 학습시킨다.  이 때, 동일한 샘플이 각 subset에 반복해서 들어갈 수 있는 가능성을 열어둔다.
 
 ## Decision Tree
