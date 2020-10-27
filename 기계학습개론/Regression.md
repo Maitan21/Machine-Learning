@@ -13,6 +13,7 @@
 
 ### Gradient Descent
 - The general idea of Gradient Descent is `to tweak parameters iteratively`in order `to minimize a cost function.`
+
 ( 오차함수를 최소화하기 위하여 파라미터를 반복적으로 수정하는 것이다. )
 
 - Batch Gradient Descent
@@ -27,7 +28,7 @@
   - 풀 배치를 계산하는 것(Batch)도 아니고 하나의 샘풀에 대해서만 계산하는 것(Stochastic)은 아니고 작은 단위의 배치로 계산
   하드웨어가 받쳐주면 미니배치가 병렬작업으로 인해 더욱 빠르다.
   
-### Overfitting % Underfitting
+### Overfitting And Underfitting
 1. Overfitting(과대 적합)
 - 어려운 가짜 패턴을 포착해 정확한 예측을 할 수 없게 됨
 - 일반화가 어렵다 -> 오버피팅
@@ -60,8 +61,11 @@
 Sol.1 `Early stopping`
 - 트레이닝하다가 validation error 가 최소일때 딱 스탑 
 - 규제화 정규화에 특화
+
 Sol.2 `Add regularized term`
+
 Sol.3 `Bagging`
+
 - training set 을 임의로 섞은 후 subset으로 나누어 학습시킨다.  이 때, 동일한 샘플이 각 subset에 반복해서 들어갈 수 있는 가능성을 열어둔다.
 
 ## Decision Tree

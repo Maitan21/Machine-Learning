@@ -11,7 +11,7 @@ wisdom of the crowd(`집단지성`)
 - Boosting
 - Stacking
 
-##Voting Classifiers
+## Voting Classifiers
 Training diverse classifiers
 
 - 여러 classifer 를 각각 훈련시킨 후, 각각의 예측값을 이용해 결론값 추론
@@ -35,13 +35,24 @@ Training diverse classifiers
 ### Bagging
 With several predictors on differnet random samples of the training set
 
-
 - Training set 을 랜덤으로 뽑아 예측.
 - 모델의 bias를 유지하며 variance를 줄이기 위함
 - Ex:) `Random Forest` -> 다양한 데이터셋을 뽑아 학습시키기 때무에 bias는 유지, 특정 데이터에overfitting되는 것을 막고 variance를 줄일 수 있다. 노이즈에 강함
  
 ### Pasting
 - Training set을 쪼개서 각 한번의 트레이닝 기회를 부여
+
+### Random Forest
+훈련을 통해 구성해 놓은 다수의 나무들로부터 분류 결과를 취합해 결과를 얻는 인기 투표
+
+- 장점
+  - 큰 데이터에 적용 가능
+  - 일반화 및 성능이 좋음
+  - scale 변환이 불필요
+
+- 단점
+  - 내부를 알 수 없는 블랙박스 모델
+  - 텍스트 데이터에는 비적합하다는 특징
 
 ## Boosting
 
@@ -51,6 +62,7 @@ Boosting refers to any Ensemble method that can combine several weak learners in
 
 ### AdaBoost
 <img src="https://user-images.githubusercontent.com/45276804/96753952-92802700-140b-11eb-9e02-6dd71f9dd409.png" width="80%"/>
+
 - Pay a bit more attention to the training instances that the predecessor underfitted(Wek learner)
 - 새로운 predictor는 좀 더 까다로운 case에 집중
 
