@@ -10,6 +10,7 @@ All of Summary Report in the `기계학습개론`
 - PCA
 - Clustering
 - GMM / Anomaly Detection
+- Perceptron
 
 ## Copyright
 Kyungpook National University.
