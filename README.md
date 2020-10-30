@@ -11,6 +11,7 @@ All of Summary Report in the `기계학습개론`
 - Clustering
 - GMM / Anomaly Detection
 - Perceptron
+- Perceptron-Intensive
 
 ## Copyright
 Kyungpook National University.
