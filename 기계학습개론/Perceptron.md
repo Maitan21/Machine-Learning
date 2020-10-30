@@ -98,3 +98,4 @@ BP for Multi-layer Perceptron
 - For this algorithm to work properly, we need key change to the MLP's architecture
 - This was essential because the step functioni contains only flat segments, so there is no gradient to work with(Gradient Descent cannot move on a flat surface)
 - In fact, the backpropagation algorithm works well with many other `activation functions`
+
