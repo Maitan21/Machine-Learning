@@ -43,3 +43,12 @@ cf.) 13_Boston.ipsynd
 ## DNN 영상 분류문제
 Building an Image Classifier Using the `Sequential API`
 
+## How to build Typical CNNs
+- Typical CNN architecture `stack` a few `convolutional layer`
+  - a pooling layer
+  - convolutional layer
+  - pooling layer
+  - convolutional layer
+  - pooling layer
+  - and so on.
+  
