@@ -108,4 +108,4 @@ inception 과 ResNet을 좀더 확장함
 - An SE block focuses exclusively on the `depth dimension`
 - And it learns which feature are usually most `active together`
 - 흰것은 더 희게 검은것은 더 검게
-<img src="https://user-images.githubusercontent.com/45276804/98899078-48620100-24f2-11eb-85a8-b1e313a8c508.png" width 50%>
+<img src="https://user-images.githubusercontent.com/45276804/98899078-48620100-24f2-11eb-85a8-b1e313a8c508.png"/>
