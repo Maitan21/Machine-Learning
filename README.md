@@ -12,6 +12,9 @@ All of Summary Report in the `기계학습개론`
 - GMM / Anomaly Detection
 - Perceptron
 - Perceptron-Intensive
+- CNN
+- DNN
+- RNN
 
 ## Copyright
 Kyungpook National University.
