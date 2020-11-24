@@ -35,3 +35,14 @@
 - `forget gate` controls which parts of the long-term state should be erased.
 - `input gate` controls which parts of `g` should be added to the long-term state.
 - `output gate` conrols which parts of the long-term state should be read and output at this time step, both to `h` and to `y`
+
+## GRU cells
+- Gated Recurrent Unit(GRU)
+  - Simplified ver of LSTM
+  - Short term and long-term in LSTM are merged.
+
+### 여전히...
+- Long term 은 제약되어있고, 아직 정말 긴 데이터를 처리하기에는 문제가 있다.
+- 이처럼 100 time steps 이상인 경우 input 자체를 줄이는 방법이 고안
+- 이것이 `1D Convolutional layer`
+
