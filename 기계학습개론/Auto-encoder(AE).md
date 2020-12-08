@@ -10,7 +10,7 @@
 - Autoencoder simplay learn to copy their inputs to their output (input == output 비슷하게)
 
 
-## Simple Autoencoder
+## Simple Autoencoder (no hidden Layer)
 - an autoencoder typically has the same architecture as a `Multi-Layer Perceptron`(MLP)
 - input 과 아웃풋이 비슷한 MLPT 구현
 
@@ -33,3 +33,29 @@
 histoy = autoencoder.fit(X_train,X_train, epochs=20)
 # fit(input,output,epochs) input == output
 ```
+- It look likes PCA
+
+## Stacked Autoencoders (A.K.A Deep Encoder)
+Having multiple `hidden layers` (like other NNs)
+
+Adding more layers? -> Then, the AE learn more complex codings.
+ - But, must be careful not to make the autoencdoer `too powerful` -> Overfitting
+ - 덜 input과 ouput이 비슷하도록
+
+- Stacked AE is typically symmetrical w.r.t the central hidden layer.
+- input - hidden(encoder) - ouput(decoder)
+
+## Overcomplete AE
+노이즈를 제거하는 인코더
+
+## Denoising Autoencoders(DAE)
+- input 에 일부러 노이즈를 추가
+- 이를 오리지널 input 값을 복원하도록 학습 
+
+#  Different from all the autoencoders (VAE)
+- Differnt from all the autoencoders in ways:
+  - They are `probabilistic(확률)` autoencoders,
+  - Most inportantly, they are generavtive `autoencoders,`
+
+- Variational autoenceoders perform vartiational Bayesian inference
+
